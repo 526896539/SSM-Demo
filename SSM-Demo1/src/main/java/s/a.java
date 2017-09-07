@@ -13,10 +13,6 @@ import org.apache.commons.lang3.StringUtils;
 public class a {
 
 	public static final String KEY_1 = "C0a9eecc5b366bde412021d4d7e5d8c4";  
-	  
-	  
-	  
-	  
     /** 
      * 返回输入地址的经纬度坐标 
      * key lng(经度),lat(纬度) 
@@ -27,8 +23,6 @@ public class a {
             //将地址转换成utf-8的16进制  
             address = URLEncoder.encode(address, "UTF-8");  
             URL tirc = new URL("http://api.map.baidu.com/geocoder?address="+ address +"&output=json&key="+ KEY_1);  
-  
-  
             in = new BufferedReader(new InputStreamReader(tirc.openStream(),"UTF-8"));  
             String res;  
             StringBuilder sb = new StringBuilder("");  
@@ -64,7 +58,7 @@ public class a {
       
     public static void main(String args[]){  
         try {  
-            Map<String, String> json = a.getGeocoderLatitude("无锡创富商务广场-B1楼");  
+            Map<String, String> json = a.getGeocoderLatitude("南京市马鞍山市江宁区振新路");  
             System.out.println("lng : " + json.get("lng"));  
             System.out.println("lat : " + json.get("lat"));  
         }catch (Exception e ){  
