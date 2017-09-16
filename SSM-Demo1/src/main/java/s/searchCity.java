@@ -36,7 +36,6 @@ public class searchCity {
         JSONObject result=(JSONObject) jsonObject.get("result");
         JSONObject addressComponent= (JSONObject) result.get("addressComponent");
         if(addressComponent==null){
-        	
         	  return null;
         }
         //String country=(String) addressComponent.get("country");

@@ -28,3 +28,57 @@
 [DEBUG] [2017-08-18 14:46:55][org.mybatis.generator.internal.db.DatabaseIntrospector]Retrieving column information for table "dept"
 [DEBUG] [2017-08-18 14:46:55][org.mybatis.generator.internal.db.DatabaseIntrospector]Found column "dept_id", data type 4, in table "test..dept"
 [DEBUG] [2017-08-18 14:46:55][org.mybatis.generator.internal.db.DatabaseIntrospector]Found column "dept_name", data type 12, in table "test..dept"
+[DEBUG] [2017-09-16 10:23:24][org.apache.commons.configuration.PropertiesConfiguration]FileName set to jdbc.properties
+[DEBUG] [2017-09-16 10:23:24][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is jdbc.properties
+[DEBUG] [2017-09-16 10:23:24][org.apache.commons.configuration.DefaultFileSystem]Could not locate file jdbc.properties at null: no protocol: jdbc.properties
+[DEBUG] [2017-09-16 10:23:24][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (jdbc.properties)
+[DEBUG] [2017-09-16 10:23:24][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/jdbc.properties
+[DEBUG] [2017-09-16 10:23:56][org.apache.commons.configuration.PropertiesConfiguration]FileName set to jdbc.properties
+[DEBUG] [2017-09-16 10:23:56][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is jdbc.properties
+[DEBUG] [2017-09-16 10:23:56][org.apache.commons.configuration.DefaultFileSystem]Could not locate file jdbc.properties at null: no protocol: jdbc.properties
+[DEBUG] [2017-09-16 10:23:56][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (jdbc.properties)
+[DEBUG] [2017-09-16 10:23:56][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/jdbc.properties
+[DEBUG] [2017-09-16 10:27:07][org.apache.commons.configuration.PropertiesConfiguration]FileName set to /Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:07][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is /Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:07][org.apache.commons.configuration.DefaultFileSystem]Could not locate file /Setting/setting.properties at null: no protocol: /Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:46][org.apache.commons.configuration.PropertiesConfiguration]FileName set to Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:46][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:46][org.apache.commons.configuration.DefaultFileSystem]Could not locate file Setting/setting.properties at null: no protocol: Setting/setting.properties
+[DEBUG] [2017-09-16 10:27:46][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (Setting/setting.properties)
+[DEBUG] [2017-09-16 10:27:46][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/Setting/setting.properties
+[DEBUG] [2017-09-16 10:28:04][org.apache.commons.configuration.PropertiesConfiguration]FileName set to Setting/setting.properties
+[DEBUG] [2017-09-16 10:28:04][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is Setting/setting.properties
+[DEBUG] [2017-09-16 10:28:04][org.apache.commons.configuration.DefaultFileSystem]Could not locate file Setting/setting.properties at null: no protocol: Setting/setting.properties
+[DEBUG] [2017-09-16 10:28:04][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (Setting/setting.properties)
+[DEBUG] [2017-09-16 10:28:04][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/Setting/setting.properties
+[DEBUG] [2017-09-16 10:28:48][org.apache.commons.configuration.PropertiesConfiguration]FileName set to /src/main/resources/SettingSetting/setting.properties
+[DEBUG] [2017-09-16 10:28:48][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is /src/main/resources/SettingSetting/setting.properties
+[DEBUG] [2017-09-16 10:28:48][org.apache.commons.configuration.DefaultFileSystem]Could not locate file /src/main/resources/SettingSetting/setting.properties at null: no protocol: /src/main/resources/SettingSetting/setting.properties
+[DEBUG] [2017-09-16 10:29:14][org.apache.commons.configuration.PropertiesConfiguration]FileName set to /src/main/resources/Setting/setting.properties
+[DEBUG] [2017-09-16 10:29:14][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is /src/main/resources/Setting/setting.properties
+[DEBUG] [2017-09-16 10:29:14][org.apache.commons.configuration.DefaultFileSystem]Could not locate file /src/main/resources/Setting/setting.properties at null: no protocol: /src/main/resources/Setting/setting.properties
+[DEBUG] [2017-09-16 10:31:13][org.apache.commons.configuration.PropertiesConfiguration]FileName set to classpath:Setting/setting.properties
+[DEBUG] [2017-09-16 10:31:13][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is classpath:Setting/setting.properties
+[DEBUG] [2017-09-16 10:31:13][org.apache.commons.configuration.DefaultFileSystem]Could not locate file classpath:Setting/setting.properties at null: unknown protocol: classpath
+[DEBUG] [2017-09-16 10:31:18][org.apache.commons.configuration.PropertiesConfiguration]FileName set to /Setting/setting.properties
+[DEBUG] [2017-09-16 10:31:18][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is /Setting/setting.properties
+[DEBUG] [2017-09-16 10:31:18][org.apache.commons.configuration.DefaultFileSystem]Could not locate file /Setting/setting.properties at null: no protocol: /Setting/setting.properties
+[DEBUG] [2017-09-16 10:32:00][org.apache.commons.configuration.PropertiesConfiguration]FileName set to classpath:setting.properties
+[DEBUG] [2017-09-16 10:32:00][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is classpath:setting.properties
+[DEBUG] [2017-09-16 10:32:00][org.apache.commons.configuration.DefaultFileSystem]Could not locate file classpath:setting.properties at null: unknown protocol: classpath
+[DEBUG] [2017-09-16 10:32:19][org.apache.commons.configuration.PropertiesConfiguration]FileName set to setting.properties
+[DEBUG] [2017-09-16 10:32:19][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is setting.properties
+[DEBUG] [2017-09-16 10:32:19][org.apache.commons.configuration.DefaultFileSystem]Could not locate file setting.properties at null: no protocol: setting.properties
+[DEBUG] [2017-09-16 10:34:27][org.apache.commons.configuration.PropertiesConfiguration]FileName set to Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:27][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:27][org.apache.commons.configuration.DefaultFileSystem]Could not locate file Setting/setting.properties at null: no protocol: Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:27][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (Setting/setting.properties)
+[DEBUG] [2017-09-16 10:34:27][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:57][org.apache.commons.configuration.PropertiesConfiguration]FileName set to Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:57][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:57][org.apache.commons.configuration.DefaultFileSystem]Could not locate file Setting/setting.properties at null: no protocol: Setting/setting.properties
+[DEBUG] [2017-09-16 10:34:57][org.apache.commons.configuration.ConfigurationUtils]Loading configuration from the context classpath (Setting/setting.properties)
+[DEBUG] [2017-09-16 10:34:57][org.apache.commons.configuration.PropertiesConfiguration]Base path set to file:///C:/Users/Administrator/Desktop/9/SSM-Demo1/target/classes/Setting/setting.properties
+[DEBUG] [2017-09-16 10:52:43][org.apache.commons.configuration.PropertiesConfiguration]FileName set to Setting/*.properties
+[DEBUG] [2017-09-16 10:52:43][org.apache.commons.configuration.ConfigurationUtils]ConfigurationUtils.locate(): base is null, name is Setting/*.properties
+[DEBUG] [2017-09-16 10:52:43][org.apache.commons.configuration.DefaultFileSystem]Could not locate file Setting/*.properties at null: no protocol: Setting/*.properties
