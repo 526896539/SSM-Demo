@@ -1,24 +1,32 @@
 package cn.supertimor.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import cn.supertimor.bean.User;
 import cn.supertimor.dao.UserDao;
 import cn.supertimor.service.UserService;
 
-@Service
+
+
+@Service("userService")
+@Transactional
 public class UserServiceImpl implements UserService{
-	@Autowired  
-    private UserDao userDao;  
-      
-    @Override  
-    public void regist(User user) {  
-        userDao.addUser(user);  
-    }  
-  
-    @Override  
-    public void login(String user_name, String password) {  
-        userDao.findUserByNameAndPwd(user_name,password);  
-    }  
+
+	@Resource
+	private UserDao userDao;
+	@Override
+	public void regist(User user) {
+		// TODO Auto-generated method stub
+		userDao.addUser(user);
+	}
+
+	@Override
+	public void login(String name, String password) {
+		// TODO Auto-generated method stub
+		userDao.findUserByNameAndPwd(name,password);
+	}
+
 }

@@ -3,13 +3,14 @@
 <mapper namespace="cn.supertimor.dao.UserDao" >
     <!--注意sql语句没有分号结尾  -->  
       
-    <insert id="addUser" parameterType="cn.supertimor.bean.User">  
-        insert into user_t(id,user_name,password,age) values(#{id},#{user_name},#{password},#{age})  
-    </insert>  
-      
-    <!--注意这里的参数类型是parameterType而不是parameterMap，因为返回的是单个类型  -->  
-    <select id="findUserByNameAndPwd"  parameterType="map"  resultType="cn.supertimor.bean.User" >  
-        select t.user_name,t.password from user_t t where user_name=#{user_name} and password=#{password}  
-    </select>  
+    
+    <insert id="addUser" parameterType="cn.supertimor.bean.User">
+        insert into people(name,password) values(#{name},#{password})
+    </insert>
+    
+    <!--注意这里的参数类型是parameterType而不是parameterMap，因为返回的是单个类型  -->
+    <select id="findUserByNameAndPwd"  parameterType="map"  resultType="cn.supertimor.bean.User">
+        select t.name,t.password from people t where name=#{name} and password=#{password}
+    </select>
       
 </mapper>  
